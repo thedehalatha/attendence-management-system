@@ -1,8 +1,10 @@
 div {
     text-align: center;
-    background-color: cornsilk;
+    background-color: rgb(151, 226, 240);
 }
 
 .login-container {
-    background-color: antiquewhite;
+    width :300px
+    background-color: white;
+    
 }

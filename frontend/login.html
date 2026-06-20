@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
+
         <h1>Login Page</h1>
-
-        <form>
-            <label>Email</label>
-            <input type="email"><br><br>
-
-            <label>Password</label>
-            <input type="password"><br><br>
-
-            <button>Login</button>
-
-            <p>
-                New User?
-                <a href="register.html">Click here to register</a>
-            </p>
-        </form>
     </div>
+
+
+    <form>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="Password" class="form-control" id="exampleFormControlInput1" placeholder="6 characters">
+        </div>
+
+        <button>Login</button>
+
+        <p>
+            New User?
+            <a href="register.html">Click here to register</a>
+        </p>
+    </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
